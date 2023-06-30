@@ -69,8 +69,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     text-align: center;
+    height: width;
+    width: 100%;
+    max-width: 200px;
     aspect-ratio: 1;
     border-radius: 100%;
 }
