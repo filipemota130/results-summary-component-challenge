@@ -1,0 +1,76 @@
+body{
+    height: 90dvh;
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    font-family: 'Hanken Grotesk';
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(121, 121, 121, 0.123);
+    display: flex;
+    align-self: center;
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+    font-family: 'Hanken Grotesk';
+    color: hsl(228, 45%, 44%);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    justify-self: flex-end;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    max-width: 50%;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.description{
+    color: hsl(241, 100%, 89%);
+    font-size: 14px ;
+    font-weight: 500;
+    padding: 0px 66px;
+    align-self: center;
+    text-align: center;
+}
+
+.result .title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.result header{
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    font-size: 18px;
+    margin: 25px 0px;
+}
+
+.result .score text{
+    color: hsl(0, 0%, 100%);
+    font-size: 62px;
+    font-weight: 600;
+}
+
+.result .score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    text-align: center;
+    aspect-ratio: 1;
+    border-radius: 100%;
+}
